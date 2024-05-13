@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px) {
+    /* CSS rules here */
+}
+
+/* Media query for medium screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* CSS rules here */
+}
+
+/* Media query for large screens (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* CSS rules here */
+}
+
+/* Media query for extra large screens (max-width: 1200px) */
+@media screen and (max-width: 1200px) {
+    /* CSS rules here */
+}
+
+/* Media query for extra extra large screens (max-width: 1400px) */
+@media screen and (max-width: 1400px) {
+    /* CSS rules here */
+}
+:root {
+    --main-bg: #2a3447;
+    --soft-bg: #384256;
+    --dark-bg: #222b3c;
+    /* TEXT */
+    --main-color: white;
+    --soft-color: #ddd;
+    --dark-color: #2a3447;
+}
+
+.menu .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu .item .title {
+    font-size: 12px;
+    font-weight: 200;
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu .item .title {
+        display: none;
+    }
+}
+
+.menu .item .listItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu .item .listItem:hover {
+    background-color: #384256;
+}
+
+.menu .item .listItem .listItemTitle {
+    font-size: 12px;
+    font-weight: 200;
+    color: #ddd;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu .item .listItem .listItemTitle {
+        display: none;
+    }
+}
